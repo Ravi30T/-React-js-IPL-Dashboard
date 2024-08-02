@@ -1,0 +1,379 @@
+/* Write your CSS here */
+
+/* Small Devices */
+
+.back-btn {
+  height: 35px;
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 60px;
+  font-family: 'Roboto';
+  background-color: aliceblue;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .lg-latest-match-container {
+    display: none;
+  }
+
+  .latest-match-main-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-match-data-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e293b;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80vw;
+  }
+
+  .latest-match-heading {
+    font-family: 'Bree Serif';
+    color: #000000;
+    font-size: 16px;
+  }
+
+  .latest-match-venue-logo-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .competing-team-logo {
+    width: 100px;
+  }
+
+  .competing-team-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .competing-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .latest-match-date {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .latest-match-venue {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .latest-match-result {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  hr {
+    color: white;
+    padding: 0px;
+  }
+
+  .latest-match-first-innings-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .latest-match-first-innings-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .latest-match-second-innings-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .latest-match-second-innings-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .latest-match-mom-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .latest-match-mom {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 14px;
+  }
+
+  .latest-match-umpires-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+  }
+
+  .latest-match-umpires {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 14px;
+  }
+}
+
+/* Large Devices Containers */
+
+@media (min-width: 768px) {
+  .horizontal-line {
+    display: none;
+  }
+
+  .latest-match-main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .latest-match-data-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #1e293b;
+    border-radius: 10px;
+    width: 90vw;
+  }
+
+  .latest-match-venue-logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60vw;
+  }
+
+  .latest-match-venue-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+    margin-right: 15px;
+  }
+
+  .competing-team-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30vw;
+  }
+
+  .latest-match-details-container {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+  }
+}
+
+/* Medium Device Content */
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+  .latest-match-heading {
+    font-family: 'Bree Serif';
+    color: #000000;
+    font-size: 16px;
+  }
+
+  .competing-team-logo {
+    width: 200px;
+  }
+
+  .competing-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 0px;
+  }
+
+  .latest-match-date {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .latest-match-venue {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+
+  .latest-match-result {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .latest-match-first-innings-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .latest-match-first-innings-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .latest-match-second-innings-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .latest-match-second-innings-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .latest-match-mom-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .latest-match-mom {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .latest-match-umpires-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .latest-match-umpires {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: right;
+  }
+}
+
+/* Large Device Content */
+
+@media ((min-width: 992px) and (max-width: 1999px)) {
+  .latest-match-heading {
+    font-family: 'Bree Serif';
+    color: #000000;
+    font-size: 20px;
+  }
+
+  .competing-team-logo {
+    width: 220px;
+  }
+
+  .competing-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 25px;
+  }
+
+  .latest-match-date {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .latest-match-venue {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+
+  .latest-match-result {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+  }
+
+  .latest-match-first-innings-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 22px;
+    text-align: right;
+  }
+
+  .latest-match-first-innings-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .latest-match-second-innings-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 22px;
+    text-align: right;
+  }
+
+  .latest-match-second-innings-team {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .latest-match-mom-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 22px;
+    text-align: right;
+  }
+
+  .latest-match-mom {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+
+  .latest-match-umpires-heading {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 22px;
+    text-align: right;
+  }
+
+  .latest-match-umpires {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+    text-align: right;
+  }
+}

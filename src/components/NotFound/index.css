@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+@media (max-width: 767px) {
+  .not-found-Page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    height: 100vh;
+  }
+
+  .not-found-text {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .not-found-Page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    height: 100vh;
+  }
+
+  .not-found-text {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 25px;
+  }
+}

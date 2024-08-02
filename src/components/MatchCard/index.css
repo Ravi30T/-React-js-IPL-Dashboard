@@ -1,0 +1,174 @@
+/* Write your CSS here */
+
+.each-recent-match-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: #1e293b;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+@media (max-width: 767px) {
+  .each-recent-match-card {
+    width: 45%;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+
+  .recent-match-team-logo {
+    width: 50px;
+    margin-top: 5px;
+  }
+
+  .recent-match-team-name {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .recent-match-result {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .won-match-status {
+    font-family: 'Bree Serif';
+    color: #18ed66;
+    font-size: 13px;
+  }
+
+  .lose-match-status {
+    font-family: 'Bree Serif';
+    color: #e31a1a;
+    font-size: 13px;
+  }
+}
+
+/* Medium Devices */
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+  .each-recent-match-card {
+    width: 30%;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+
+  .recent-match-team-logo {
+    width: 55px;
+    margin-top: 5px;
+  }
+
+  .recent-match-team-name {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .recent-match-result {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .won-match-status {
+    font-family: 'Bree Serif';
+    color: #18ed66;
+    font-size: 14px;
+  }
+
+  .lose-match-status {
+    font-family: 'Bree Serif';
+    color: #e31a1a;
+    font-size: 14px;
+  }
+}
+
+/* Large Devices */
+
+@media ((min-width: 992px) and (max-width: 1999px)) {
+  .each-recent-match-card {
+    width: 30%;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+
+  .recent-match-team-logo {
+    width: 60px;
+    margin-top: 5px;
+  }
+
+  .recent-match-team-name {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .recent-match-result {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .won-match-status {
+    font-family: 'Bree Serif';
+    color: #18ed66;
+    font-size: 16px;
+  }
+
+  .lose-match-status {
+    font-family: 'Bree Serif';
+    color: #e31a1a;
+    font-size: 16px;
+  }
+}
+
+/* Extra Large Devices */
+
+@media ((min-width: 992px) and (max-width: 1999px)) {
+  .each-recent-match-card {
+    width: 30%;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+
+  .recent-match-team-logo {
+    width: 65px;
+    margin-top: 5px;
+  }
+
+  .recent-match-team-name {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .recent-match-result {
+    font-family: 'Bree Serif';
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .won-match-status {
+    font-family: 'Bree Serif';
+    color: #18ed66;
+    font-size: 16px;
+  }
+
+  .lose-match-status {
+    font-family: 'Bree Serif';
+    color: #e31a1a;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,111 @@
+/* Write your CSS here */
+
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+}
+
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+}
+
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #ffffff33);
+}
+
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #0f172a);
+}
+
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #ffffff33);
+}
+
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #ffffff33);
+}
+
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, #0f172a);
+}
+
+.team-stats-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.team-banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.latest-match-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.recent-match-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recent-match-list-container {
+  padding-left: 0px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stats-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  padding-left: 5%;
+}
+
+@media (max-width: 575px) {
+  .team-banner {
+    width: 80vw;
+    height: 135px;
+  }
+
+  .recent-match-cards-container {
+    width: 80vw;
+    margin-left: 22px;
+  }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .team-banner {
+    width: 80vw;
+    height: 170px;
+  }
+}
+
+@media ((min-width: 768px) and (max-width: 991px)) {
+  .team-banner {
+    width: 90vw;
+    height: 270px;
+  }
+}
+
+@media ((min-width: 992px) and (max-width: 1999px)) {
+  .team-banner {
+    width: 90vw;
+    height: 320px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .team-banner {
+    width: 90vw;
+    height: 370px;
+  }
+}
